@@ -51,9 +51,17 @@ header nav.right{
     text-align: right;
 }
 
+#menuBtn{
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+}
+
 section{
     height: 100vh;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     background-size: cover;
     background-position: center center;
 }
@@ -116,7 +124,9 @@ aside{
     z-index: 4;
     height: 100vh;
 }
-
+aside .active{
+    right: 0;
+}
 aside a{
     display: block;
     color: inherit;
